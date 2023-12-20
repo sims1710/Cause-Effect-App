@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header:hover{
+    background: rgb(193, 193, 193);
+    color: black;
+}
+
+.title{
+    font-size: 2.6rem;
+}
+
+.description{
+    font-size: 0.7rem;
+}
+
+/* List Styles */
+.list-container{
+    margin-top: 2rem;
+}
+
+#person-list {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+#person-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 30%;
+    overflow-y: auto;
+}
+
+#person-list li {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #eee;
+    font-size: 1rem;
+}
+
+#person-list li:hover{
+    background: black;
+    color: white;
+}
+
+#person-details {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    font-size: 0.7rem;
+    transform: translateX(+100%);
+}
+
